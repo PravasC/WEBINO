@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* **********HEADING PART RUNNING********** */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+#navbar {
+    background: #000;
+    margin-bottom: 105px;
+}
+
+.navbar {
+    padding: 15px 0px;
+}
+
+.navbar-brand img {
+    width: 140px;
+    height: auto;
+}
+
+#navbar ul li a {
+    text-align: center !important;
+    color: rgba(219, 219, 219, 1);
+    transition: 0.3s color;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.3s width;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: 0.3s width;
+}
+
+#navbar ul li a:hover {
+    color: white;
+}
+
+#clippathblack {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 50% 65%, 0 100%);
+    background: rgb(31, 31, 31);
+    width: 145px;
+    height: 170px;
+    z-index: -1;
+    cursor: pointer;
+}
+
+#clippathblack:hover {
+    background: #fff;
+}
+
+.text-red {
+    color: red;
+}
+
+.mainheadh1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+#backgroundimg img {
+    width: 100%;
+    transition: 0.3s all;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+}
+
+#headercontent {
+    line-height: 3;
+}
+
+#headercontent p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#headercontent button {
+    font-size: 1.9rem;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+#headerdiv {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btn1 {
+    background: rgb(63, 61, 86);
+    border: none;
+    border-radius: 7px;
+    transition: 0.3s all;
+}
+
+.btn1:hover {
+    background: none;
+    border: 1px solid #000;
+    color: #000;
+    box-shadow: 0px 0px 10px 4px rgba(48, 48, 48, 0.4);
+}
+
+.btn2 {
+    box-sizing: border-box;
+    background: 0;
+    border: 1px solid #000;
+    border-radius: 7px;
+    color: #000;
+    transition: 0.3s all;
+}
+
+.btn2:hover {
+    background: rgb(63, 61, 86);
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 4px rgba(48, 48, 48, 0.4);
+}
+
+
+/* **********HEADING PART END********** */
+
+
+/* **********INTRODUCTION PART END********** */
+
+#introduction {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#introdctionimgstart img {
+    width: 100%;
+}
+
+#introdctioncontentstart {
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+#introdctioncontentstart p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+
+#introdctioncontentstart h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+#introdctioncontentstart button {
+    font-size: 1.9rem;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+
+/* **********INTRODUCTION PART END********** */
+
+#services {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#services img {
+    width: 80%;
+    margin: 20px 10%;
+}
+
+.carddivstyle {
+    width: 80%;
+    margin: 20% auto;
+    text-align: center;
+    transition: 0.2s all;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.carddivstyle:hover {
+    box-shadow: 10px 20px 10px 2px rgba(0, 0, 0, 0.5);
+    border: none;
+    background: rgba(0, 0, 0, 0.09);
+}
+
+.card-body h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+#services .btn {
+    width: 10rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    background: linear-gradient(25deg, rgba(5, 25, 51, 1) 40%, rgba(83, 120, 149, 1) 70%);
+}
+
+#services .btn:hover {
+    background: linear-gradient(220deg, rgba(5, 25, 51, 1) 40%, rgba(83, 120, 149, 1) 70%);
+    transition: 0.5s all;
+}
+
+
+/* **********SERVICES PART END********** */
+
+
+/* **********PORTFOLIO PART END********** */
+
+#portfolio {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#portfolio h1 {
+    margin: 80px 0px;
+}
+
+#portfolio li a {
+    font-size: 1.4rem;
+    color: #000;
+    transition: 0.5s all;
+}
+
+#portfolio li a:hover {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#portfolio li a::after {
+    content: "";
+    background: #000;
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+#portfolio li a:hover::after {
+    width: 100%;
+}
+
+#portfolio button {
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+#portfolio img {
+    width: 100%;
+}
+
+
+/* **********PORTFOLIO PART END********** */
+
+
+/* **********PROGRESS_BAR PART START********** */
+
+
+/* #######skill jquery######### */
+
+.bg-blueor {
+    background-color: #1abc9c!important;
+}
+
+.bg-oragnged {
+    background-color: #e67e22!important;
+}
+
+.barfiller .fill {
+    width: 0px;
+    height: 100%;
+    background: #333;
+    z-index: 1;
+}
+
+.barfiller .tipWrap {
+    display: none;
+}
+
+.barfiller .tip {
+    margin-top: -30px;
+    padding: 2px 4px;
+    font-size: 11px;
+    color: #fff;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+    background: #333;
+}
+
+
+/* ############### */
+
+#progressbar {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: gray;
+    padding: 80px 0px;
+}
+
+#progressbar label {
+    margin: 10px 0px;
+}
+
+.progress {
+    height: 15px;
+}
+
+.progress-bar {
+    font-size: 1.2rem;
+}
+
+#progressbar p {
+    margin: 0;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* **********PROGRESS_BAR PART END********** */
+
+
+/* **********PRICING PART START********** */
+
+#pricing {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#pricing li {
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.5;
+}
+
+#pricing .card-header {
+    padding: 30px;
+    font-size: 2.7rem;
+    font-weight: 300;
+    background: #fff;
+}
+
+#pricing .card-footer {
+    padding: 30px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+}
+
+#pricing .card-footer a {
+    border: 1px solid rgba(125, 125, 125);
+    padding: 10px 15px;
+    border-radius: 100px;
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+#pricing .money {
+    font-size: 5rem;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px #000;
+    margin: 10px;
+    transition: .4s all;
+}
+
+.card:hover .card-footer a {
+    background-color: #16c9f6!important;
+    color: #fff!important;
+    border: none!important;
+}
+
+.card:hover .money {
+    color: #16c9f6!important;
+}
+
+.card:hover .card-header {
+    background-color: #16c9f6!important;
+    color: #fff;
+}
+
+.pricingheader {
+    margin: 50px;
+}
+
+
+/* **********PRICING PART END********** */
+
+
+/* **********SOCIAL MEDIA PART START********** */
+
+#socialpart {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#socialpart #icon {
+    font-size: 4rem;
+}
+
+#socialpart h1 {
+    margin-bottom: 100px;
+}
+
+#socialpart #icon .center_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialpart #icon .center_icon i {
+    border: 1px solid #000;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#icon-1 i:hover {
+    background-color: #3b5998;
+    color: white!important;
+    transition: 0.3s all;
+    border: none!important;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+#icon-2 i:hover {
+    background-color: #00acee;
+    color: white!important;
+    transition: 0.3s all;
+    border: none!important;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+#icon-3 i:hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    color: white!important;
+    transition: 0.3s all;
+    border: none!important;
+}
+
+#icon-4 i:hover {
+    background-color: #0e76a8;
+    color: white!important;
+    transition: 0.3s all;
+    border: none!important;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+
+/* **********SOCIAL MEDIA PART END********** */
+
+
+/* **********FOOTER PART START********** */
+
+#footerpart {
+    background: #262626;
+    padding: 100px;
+}
+
+#footermail input {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    font-size: 1.4rem;
+    padding: 0 20px;
+}
+
+#footermail button {
+    margin: none;
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    left: -4px;
+    font-size: 1.4rem;
+    background: #000;
+    color: #fff;
+}
+
+#logofooter {
+    margin: 20px 0;
+}
+
+#footerpart i {
+    color: #fff!important;
+    font-size: 3rem;
+    padding-right: 20px;
+}
+
+#footerpart i:hover {
+    color: slategrey!important;
+    transition: .3s all;
+}
+
+#copyrighttext p {
+    color: #fff;
+}
+
+#copyrighttext p {
+    font-size: 1.5rem;
+}
+
+
+/* **********FOOTER PART END********** */
+
+
+/* ################################################################################################################################################
+#################################################################*****MEIDA QUERRY*******#######################################################################
+######################################################################################################################################################### */
+
+@media (max-width: 768px) {
+    #footermail input {
+        width: 100%;
+    }
+    #pricing .card {
+        margin-top: 30px;
+    }
+    #backgroundimg img {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+    #introdctionimgstart img {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .mrn-5 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 388px) {
+    .mainheadh1 {
+        font-size: 3rem;
+    }
+    #headerdiv h1 {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #socialpart #icon {
+        margin-top: 30px;
+    }
+    #logofooter img {
+        width: 100%;
+    }
+}
